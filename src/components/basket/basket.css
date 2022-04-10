@@ -1,0 +1,30 @@
+.basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+}
+
+.basket img {
+  width: 3.2rem;
+  height: auto;
+}
+
+.basket-products {
+  margin-left: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.basket-total {
+  padding: 0 2.4rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-right: 1px solid #ffd326;
+}

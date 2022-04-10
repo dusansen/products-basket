@@ -1,0 +1,13 @@
+.basket-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.basket-item-qty button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 3.2rem;
+  justify-content: space-around;
+  margin-top: 3.2rem;
+}
+
+.App header,
+.products-list {
+  padding: 0 3.2rem;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 1px solid #ffd326;
+}
+
+@media only screen and (max-width: 768px) {
+  .products-list {
+    grid-template-columns: repeat(1, auto);
+  }
+}
